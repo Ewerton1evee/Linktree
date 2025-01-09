@@ -1,0 +1,55 @@
+body {
+ background: linear-gradient(to top, #1c1837, #7F03A2);
+ text-align: center;
+ margin-top: 50px;
+ width: 100vw;
+ height: 100vh;
+ font--family: 'Press Start 2P', cursive;
+}
+ 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+ 
+img {
+ animation: bounce 2s infinite;
+ height: 200px;
+ width: 200px;
+ border-radius: 100px;
+ border: solid 5px #1c1837;
+}
+
+h1 {
+ color: white; 
+ font-size: 40px;
+ margin: 6px;
+}
+
+h3 {
+ color: white;
+ font-size: 20px;
+}
+
+.subtitulo {
+ padding: 5px;
+ margin: 50px;
+ text-decoration: 20px;
+ color: #483D8B;
+ background-color: white;
+ font-size: 25px;
+ border-radius: 100px;
+ border: solid #2b2453;
+}
+
+.link {
+ color: #b5b1d0;
+ font-size: 20px;
+ border-radius: 100px;
+ margin: 10px;
+}
